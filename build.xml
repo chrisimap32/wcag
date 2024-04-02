@@ -245,7 +245,8 @@
 		<xslt in="${inputdir.techniques}/about-flat.html" out="${basedir}/output/techniques/about.html" style="xslt/process-index.xslt" force="true">
 			<classpath path="${classpath.saxon}"/>
 			<factory name="${xslt.factory}"/>
-			<param name="base.dir" expression="${base.techniques}"/>
+			<param 
+name="base.dir" expression="${base.techniques}"/>
 			<param name="guidelines.version" expression="${guidelines.version}"/>
 			<param name="loc.guidelines" expression="https://www.w3.org/TR/WCAG${guidelines.version}/" if="publication"/>
 			<param name="loc.understanding" expression="https://www.w3.org/WAI/WCAG${guidelines.version}/Understanding/" if="publication"/>
