@@ -189,3 +189,4 @@ WCAG 2.2 is ready for translation. To translate WCAG 2.2, ensure you are set up 
 * Activate the "Respec" link in the top right corner, and choose "Export...", then the "HTML" option.
 * Edit the resulting file to translate text that was inserted by the script.
 * Edit the file to meet the requirements of the [W3C Authorized Translations](https://www.w3.org/2005/02/TranslationPolicy) process. 
+//bin -
